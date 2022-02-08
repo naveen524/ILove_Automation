@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-08T16:50:50 IST" name="ILove_Automation" finished-at="2022-02-08T16:52:27 IST" duration-ms="97214">
+    <groups>
+    </groups>
+    <test started-at="2022-02-08T16:50:50 IST" name="Flipkart Test1" finished-at="2022-02-08T16:51:09 IST" duration-ms="19090">
+      <class name="com.ILove_Automation.testcases.TestCase_TC_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ILove_Automation.testcases.TestCase_TC_001@f0da945]" started-at="2022-02-08T16:50:50 IST" name="setup" finished-at="2022-02-08T16:51:02 IST" duration-ms="12641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Login()[pri:0, instance:com.ILove_Automation.testcases.TestCase_TC_001@f0da945]" started-at="2022-02-08T16:51:02 IST" name="test_Login" finished-at="2022-02-08T16:51:09 IST" duration-ms="6420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ILove_Automation.testcases.TestCase_TC_001@f0da945]" started-at="2022-02-08T16:51:09 IST" name="tearDown" finished-at="2022-02-08T16:51:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ILove_Automation.testcases.TestCase_TC_001 -->
+    </test> <!-- Flipkart Test1 -->
+    <test started-at="2022-02-08T16:51:09 IST" name="Flipkart Test2" finished-at="2022-02-08T16:52:01 IST" duration-ms="51885">
+      <class name="com.ILove_Automation.testcases.TestCase_TC_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ILove_Automation.testcases.TestCase_TC_001@242b836]" started-at="2022-02-08T16:51:09 IST" name="setup" finished-at="2022-02-08T16:51:50 IST" duration-ms="41090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Login()[pri:0, instance:com.ILove_Automation.testcases.TestCase_TC_001@242b836]" started-at="2022-02-08T16:51:50 IST" name="test_Login" finished-at="2022-02-08T16:52:01 IST" duration-ms="10790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ILove_Automation.testcases.TestCase_TC_001@242b836]" started-at="2022-02-08T16:52:01 IST" name="tearDown" finished-at="2022-02-08T16:52:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ILove_Automation.testcases.TestCase_TC_001 -->
+    </test> <!-- Flipkart Test2 -->
+    <test started-at="2022-02-08T16:52:01 IST" name="Flipkart Test3" finished-at="2022-02-08T16:52:27 IST" duration-ms="26053">
+      <class name="com.ILove_Automation.testcases.TestCase_TC_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ILove_Automation.testcases.TestCase_TC_001@5a45133e]" started-at="2022-02-08T16:52:01 IST" name="setup" finished-at="2022-02-08T16:52:27 IST" duration-ms="26029" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-57M536C', ip: '192.168.126.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: InternetExplorerDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-57M536C', ip: '192.168.126.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: InternetExplorerDriver
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:202)
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:221)
+at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:213)
+at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:150)
+at com.ILove_Automation.testcases.BaseClass.setup(BaseClass.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:13357/status] to be available after 20000 ms
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197)
+... 29 more
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:155)
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Login()[pri:0, instance:com.ILove_Automation.testcases.TestCase_TC_001@5a45133e]" started-at="2022-02-08T16:52:27 IST" name="test_Login" finished-at="2022-02-08T16:52:27 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-57M536C', ip: '192.168.126.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: InternetExplorerDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-57M536C', ip: '192.168.126.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: InternetExplorerDriver
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:202)
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:221)
+at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:213)
+at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:150)
+at com.ILove_Automation.testcases.BaseClass.setup(BaseClass.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:13357/status] to be available after 20000 ms
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197)
+... 29 more
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:155)
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ILove_Automation.testcases.TestCase_TC_001@5a45133e]" started-at="2022-02-08T16:52:27 IST" name="tearDown" finished-at="2022-02-08T16:52:27 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ILove_Automation.testcases.TestCase_TC_001 -->
+    </test> <!-- Flipkart Test3 -->
+  </suite> <!-- ILove_Automation -->
+</testng-results>
